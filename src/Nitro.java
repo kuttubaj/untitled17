@@ -1,5 +1,11 @@
 public class Nitro extends Lenovo{
 private String data;
+private int could;
+
+private Color color;
+
+private Dell dell;
+
 
     public Nitro(int nvidia) {
         super(nvidia);

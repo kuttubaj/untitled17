@@ -1,7 +1,7 @@
 
 public class Main {
     public static void main(String[] args) {
-//        Shelter shelter1 = new Shelter("myagkie ruchki", "-");
+//       Shelter shelter1 = new Shelter("myagkie ruchki", "-");
 //        Shelter shelter2 = new Shelter("geeks", "-");
 //        Dog dog1 = new Dog("Barsik", "avcharka", "day lapy");
 //        Dog dog2 = new Dog("Simba", "lev", Color.BROWN, shelter1);
@@ -11,8 +11,8 @@ public class Main {
 //        System.out.println(dog2.getInfo());
 //        System.out.println(dog3.getInfo());
 //        dog1.makeVoice("nyam - nyam", 2);
-//        dog1.makeVoice("rrrrrr");
-//        dog1.makeVoice();
+//        dog2.makeVoice("rrrrrr");
+//        dog3.makeVoice();
 
         Nitro objectA = new Nitro(5);
         GTX objectB = new GTX(9);
@@ -20,7 +20,7 @@ public class Main {
 
         System.out.println(objectA.getData() + objectA.getNvidia());
         System.out.println(objectB.getAge() + objectB.getNvidia() + objectB.getData());
-        System.out.println(objectC.getAge() + objectC.getNvidia() + objectC.getData());
+        System.out.println(objectC.getAge() + objectC.getNvidia() + objectC.getData() + objectC.getDell());
 
         objectA.coreI5();
         objectB.coreI5();

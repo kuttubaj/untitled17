@@ -61,8 +61,4 @@ public class Dog extends Pet {
         System.out.println("gav - gav");
     }
 
-    @Override
-    public String getInfo() {
-        return super.getInfo() + " name: " + getName() + " breed: " + getBreed() + " commands: " + getCommands();
-    }
 }

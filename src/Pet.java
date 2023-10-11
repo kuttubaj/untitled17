@@ -1,7 +1,7 @@
-public class Pet{
-    int age;
-    Color color;
-    Shelter shelter;
+public abstract class Pet{
+    protected int age;
+    protected Color color;
+    protected Shelter shelter;
 
 
     public int getAge() {
@@ -32,7 +32,7 @@ public class Pet{
         return age = 2;
     }
 
-    public String getInfo() {
+    final public String getInfo() {
         return "age: " + getAge() + "color:" + getColor() + " shelter : " + getShelter();
     }
 }
